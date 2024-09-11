@@ -1,0 +1,414 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5752668773233497"
+     crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.cdnfonts.com/css/whitney-2" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Game-net - Free Minecraft Server Hosting</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <meta name="description" content="FREE 24/7 Minecraft Server Hosting with XEH.">
+    <meta property="og:title" content="XEH">
+    <meta property="og:description" content="FREE 24/7 Minecraft Server Hosting with XEH.">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1280">
+    <meta property="og:image:height" content="720">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Game-net">
+    <meta name="twitter:description" content="FREE 24/7 Minecraft Server Hosting with Game-net">
+    <meta name="twitter:image:type" content="image/png">
+    <meta name="twitter:image:width" content="1280">
+    <meta name="twitter:image:height" content="720">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Whitney', sans-serif;
+        }
+        .carousel-container {
+            overflow: hidden;
+        }
+        .carousel-item {
+            display: inline-block;
+            padding: 10px;
+        }
+        .game-card {
+            position: relative;
+            width: 200px;
+            height: 120px;
+            border-radius: 18px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 10px;
+            background-size: cover;
+            background-position: center;
+        }
+        .game-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(to bottom, rgba(30,31,35,0.1), rgba(30,31,35,0.7));
+        }
+        .game-card img {
+            width: 40px;
+            height: 40px;
+            margin-bottom: 5px;
+            position: relative;
+            z-index: 1;
+        }
+        .game-card p {
+            position: relative;
+            z-index: 1;
+        }
+        .logo-cloud {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 2rem;
+            padding: 2rem 0;
+        }
+        .logo-cloud img {
+            height: 2.5rem;
+            opacity: 0.7;
+            transition: opacity 0.3s ease;
+        }
+        .logo-cloud img:hover {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body class="bg-[#1e1f23] text-white">
+    <div class="relative min-h-screen">
+        <!-- Background image with overlay -->
+        <div class="absolute inset-0 bg-cover bg-center rounded-b-3xl" style="background-image: url('https://www.complementary.dev/assets/img/newScreenshots/reim4_newIceSpike.jpg');">
+            <div class="absolute inset-0 bg-gradient-to-r from-blue-600/70 to-indigo-600/70 rounded-b-3xl"></div>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="relative z-10 flex justify-between items-center p-4">
+            <div class="flex items-center">
+                <img src="https://i.imgur.com/94eZ5im.png" alt="XEH" class="h-6 mr-2">
+            </div>
+            <div class="flex items-center space-x-4">
+                <a href="../" class="text-white/70 hover:text-white transition">Home</a>
+                <a href="https://panel.xeh.sh" class="text-white/70 hover:text-white transition">Panel</a>
+                <select class="bg-transparent border-none">
+                    <option value="en">🇬🇧 EN</option>
+                </select>
+                <a href="https://dash.game-net.site/login/discord" class="px-4 py-2 bg-white text-gray-900 rounded-full">Log in</a>
+                <a href="https://dash.game-net.site" class="px-4 py-2 bg-green-200 text-green-900 rounded-full">Create server</a>
+            </div>
+        </nav>
+
+    <!-- Cookie Banner -->
+    <div id="cookie-banner" class="fixed bottom-4 z-50 w-96 mx-4 right-0 bg-white/80 backdrop-blur text-white p-4 flex justify-between items-center rounded-xl">
+        <p class="text-gray-600 text-sm mr-6">We use cookies... so our website actually works. For more information, refer to the Game-net Privacy Policy.</p>
+        <div>
+            <button id="accept-cookies" class="bg-white shadow hover:bg-gray-100 transition cursor-pointer text-gray-800 px-4 py-2 rounded-xl mr-2">Accept</button>
+        </div>
+    </div>
+
+        <!-- Updated Hero content -->
+        <div class="relative z-10 flex flex-col rounded-b-3xl items-start justify-center min-h-screen text-left px-8 max-w-8xl mx-auto">
+            <h1 class="text-6xl font-bold mb-4">ENGINEERED FOR MAXIMUM PERFORMANCE.</h1>
+            <p class="text-xl text-white/70 mb-8">Enjoy lag-free gameplay on your game server with our leading-edge technologies and rapid servers. Create your own high-performance free 24/7 server with XEH today and start experiencing what a great host is like.</p>
+            <div class="flex space-x-4">
+                <div class="bg-[#1e1f23] px-3 py-2 rounded-xl flex items-center space-x-2">
+                    <img src="https://i.imgur.com/QUK3tvb.png" alt="Minecraft" class="w-7 h-7 bg-white/10 rounded-xl p-1.5">
+                    <span>Minecraft Java</span>
+                </div>
+                <div class="bg-[#1e1f23] px-3 py-2 rounded-xl flex items-center space-x-2">
+                    <img src="https://i.imgur.com/W3eGCJ1.png" alt="Minecraft" class="w-7 h-7 bg-white/10 rounded-xl p-1.5">
+                    <span>Minecraft Bedrock</span>
+                </div>
+                <div class="bg-[#1e1f23] px-3 py-2 rounded-xl flex items-center space-x-2">
+                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968322.png" alt="Minecraft" class="w-7 h-7 bg-white/10 rounded-xl p-1.5">
+                    <span>Node.js</span>
+                </div>
+                <div class="bg-[#1e1f23] px-3 py-2 rounded-xl flex items-center space-x-2">
+                    <img src="https://bun.sh/logo-square.png" alt="Minecraft" class="w-7 h-7 bg-white/10 rounded-xl p-1.5">
+                    <span>Bun</span>
+                </div>
+                <div class="bg-[#1e1f23] px-3 py-2 rounded-xl flex items-center space-x-2">
+                    <img src="https://go.dev/blog/go-brand/Go-Logo/PNG/Go-Logo_Blue.png" alt="Minecraft" class="w-7 h-7 bg-white/10 rounded-xl p-1.5">
+                    <span>Go</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- New Logo Cloud Section -->
+    <div class="bg-[#1e1f23] border-b border-white/5 py-12">
+        <div class="container mx-auto px-4 justify-center">
+<div class="flex justify-center">
+            <span class="text-center text-sm tracking-widest text-white/80 uppercase">It won't be just you.</span>
+</div>
+            <div class="logo-cloud">
+                <img src="https://iili.io/dRhcfx1.png" alt="Logo 1">
+                <img src="https://cdn.discordapp.com/icons/1162779774893174884/b9c0b8b9d30331933f6c6f7ba8cde8ac.webp?size=240" alt="Logo 1">
+                <img src="https://cdn.discordapp.com/avatars/1266362412391465023/eb022414e7195fc4756d7b01f3ba8632.webp?size=160" alt="Logo 2">
+                <img src="https://i.imgur.com/3hyL9nF.png" alt="Logo 3">
+                <img src="https://cdn.discordapp.com/icons/1133145134318497923/b4cd30bc42fbcd779e12a08d425579ec.webp?size=240" alt="Logo 4" class="rounded-full">
+                <img src="https://i.imgur.com/eEbQj4b.png" alt="Logo 4" class="rounded-full">
+<img src="https://i.ibb.co/1LtzhyJ/GOF-Logo-1-sdfsdf.webp" alt="Logo 4" class="rounded-full">
+            </div>
+<div class="flex justify-center">
+            <span class="text-center text-sm tracking-widest text-white/50 uppercase">AND 6.6K OTHERS...</span>
+</div>
+        </div>
+    </div>
+
+    <!-- Features Section -->
+    <div class="bg-[#1e1f23] py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-1">Why Choose Game-net?</h2>
+            <h2 class="text-lg text-zinc-400 text-center mb-12">We're also free, so there's not much for you to lose. Why not try us?</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white/5 p-6 rounded-2xl">
+                    <h3 class="text-xl font-semibold mb-4">24/7 Uptime</h3>
+                    <p>Our servers are built for maximum reliability, ensuring your server is always accessible.</p>
+                </div>
+                <div class="bg-white/5 p-6 rounded-2xl">
+                    <h3 class="text-xl font-semibold mb-4">Lightning Fast</h3>
+                    <p>Experience lag-free gameplay with our high-performance hardware and optimized network infrastructure.</p>
+                </div>
+                <div class="bg-white/5 p-6 rounded-2xl">
+                    <h3 class="text-xl font-semibold mb-4">Easy Setup</h3>
+                    <p>Get your server up and running in minutes with our user-friendly control panel and one-click installations.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Pricing Section -->
+<div class="bg-[#1e1f23] border-t border-white/5 py-16">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-1">One plan that costs nothing.</h2>
+        <h2 class="text-lg text-zinc-400 text-center mb-12">Don't worry, we aren't one of the hosts that will advertise premium plans at you 24/7 when using a free plan.</h2>
+        <div class="flex justify-center">
+            <div class="bg-white/5 p-8 rounded-2xl border-2 border-transparent hover:scale-105 transition max-w-md w-full hover:border-white/10">
+                <h3 class="text-2xl font-bold mb-4">Free Forever</h3>
+                <p class="text-4xl font-bold mb-6">$0<span class="text-xl font-normal">/month</span></p>
+                <ul class="mb-8">
+                    <li class="mb-2">✅ Up to 24GB RAM for free, 2GB default</li>
+                    <li class="mb-2">✅ NVMe Storage</li>
+                    <li class="mb-2">✅ Unlimited Players</li>
+                    <li class="mb-2">✅ 24/7 Uptime</li>
+                    <li>✅ Full SFTP Access</li>
+                </ul>
+                <a href="https://dash.game-net.site/" class="block w-full text-center px-6 py-3 bg-green-100 text-green-900 rounded-xl hover:bg-green-200 transition">Get Started Now</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--- FAQ Section -->
+<section class="bg-[#1e1f23] pt-8 pb-16">
+    <div class="container mx-auto px-4">
+        <div class="space-y-4">
+            <div class="faq-item">
+                <button class="flex justify-between items-center w-full text-left bg-white/5 p-4 rounded-lg hover:bg-white/10 transition">
+                    <span class="text-lg font-semibold">How do I create a server?</span>
+                    <svg class="w-6 h-6 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                </button>
+                <div class="faq-answer hidden mt-2 p-4 bg-white/5 rounded-lg">
+                    <p>To create a server, simply sign up on our dashboard and click the "Create Server" button in your dashboard. Follow the easy configuration process, and your server will be ready in seconds! All that you need to do after that is obtain your Panel credentials from the "Account" page and sign into our server management panel <a href="https://panel.xeh.sh/" class="text-blue-200">here</a>.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="flex justify-between items-center w-full text-left bg-white/5 p-4 rounded-lg hover:bg-white/10 transition">
+                    <span class="text-lg font-semibold">Is Game-net really free?</span>
+                    <svg class="w-6 h-6 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                </button>
+                <div class="faq-answer hidden mt-2 p-4 bg-white/5 rounded-lg">
+                    <p>Yes, Game-net is 100% free! We offer high-quality server hosting without any hidden costs or premium plans.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- XEH vs Competition Section -->
+<section class="bg-[#1e1f23] py-16 border-t border-white/5">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-12">XEH against the competition.</h2>
+        <div class="overflow-x-auto">
+            <table class="w-full bg-white/5 rounded-lg overflow-hidden">
+                <thead>
+                    <tr class="bg-white/10">
+                        <th class="p-3 text-left">Features</th>
+                        <th class="p-3 text-center">Game-net</th>
+                        <th class="p-3 text-center">Minehut</th>
+                        <th class="p-3 text-center">Aternos</th>
+                        <th class="p-3 text-center">Falix</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="p-3 border-t border-white/5">RAM</td>
+                        <td class="p-3 border-t border-white/5 text-center">Up to 24GB, 2GB default</td>
+                        <td class="p-3 border-t border-white/5 text-center">1GB (Free)</td>
+                        <td class="p-3 border-t border-white/5 text-center">Scalable, Up to 3GB</td>
+                        <td class="p-3 border-t border-white/5 text-center">Unknown</td>
+                    </tr>
+                    <tr>
+                        <td class="p-3 border-t border-white/5">24/7 Online</td>
+                        <td class="p-3 border-t border-white/5 text-center">✅</td>
+                        <td class="p-3 border-t border-white/5 text-center">❌</td>
+                        <td class="p-3 border-t border-white/5 text-center">❌</td>
+                        <td class="p-3 border-t border-white/5 text-center">❌</td>
+                    </tr>
+                    <tr>
+                        <td class="p-3 border-t border-white/5">Full SFTP Access</td>
+                        <td class="p-3 border-t border-white/5 text-center">✅</td>
+                        <td class="p-3 border-t border-white/5 text-center">❌</td>
+                        <td class="p-3 border-t border-white/5 text-center">✅</td>
+                        <td class="p-3 border-t border-white/5 text-center">✅</td>
+                    </tr>
+                    <tr>
+                        <td class="p-3 border-t border-white/5">Unlimited Players</td>
+                        <td class="p-3 border-t border-white/5 text-center">✅</td>
+                        <td class="p-3 border-t border-white/5 text-center">❌</td>
+                        <td class="p-3 border-t border-white/5 text-center">❌</td>
+                        <td class="p-3 border-t border-white/5 text-center">✅</td>
+                    </tr>
+                    <tr>
+                        <td class="p-3 border-t border-white/5">Available Locations</td>
+                        <td class="p-3 border-t border-white/5 text-green-500 text-center">4+</td>
+                        <td class="p-3 border-t border-white/5 text-center">1</td>
+                        <td class="p-3 border-t border-white/5 text-center">1</td>
+                        <td class="p-3 border-t border-white/5 text-center">1</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const faqItems = document.querySelectorAll('.faq-item');
+    
+    faqItems.forEach(item => {
+        const button = item.querySelector('button');
+        const answer = item.querySelector('.faq-answer');
+        const icon = item.querySelector('svg');
+        
+        button.addEventListener('click', () => {
+            answer.classList.toggle('hidden');
+            icon.classList.toggle('rotate-180');
+        });
+    });
+});
+</script>
+
+<style>
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+.faq-answer:not(.hidden) {
+    max-height: 500px;
+}
+</style>
+
+
+    <!-- Footer -->
+    <footer class="py-8 bg-[#1e1f23] border-t border-white/5">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap justify-between">
+                <div class="w-full md:w-1/4 mb-6 md:mb-0">
+                    <img src="https://i.imgur.com/94eZ5im.png" alt="XEH" class="h-8 mb-4">
+                    <p class="text-sm text-zinc-400">Game-net - Engineered For Maximum Performance.</p>
+                </div>
+                <div class="w-full md:w-1/4 mb-6 md:mb-0">
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <ul>
+                        <li><a href="../" class="hover:text-gray-300">Home</a></li>
+                        <li><a href="https://dash.game-net.site" class="hover:text-gray-300">Status</a></li>
+                        <li><a href="https://discord.gg/Game-net" class="hover:text-gray-300">Discord</a></li>
+                        <li><a href="https://panel.game-net.site" class="hover:text-gray-300">Panel</a></li>
+                    </ul>
+                </div>
+                <div class="w-full md:w-1/4 mb-6 md:mb-0">
+                    <h4 class="text-lg font-semibold mb-4">Legal</h4>
+ 
+                </div>
+                <div class="w-full md:w-1/4">
+                    <h4 class="text-lg font-semibold mb-4">Connect With Us</h4>
+                    <div class="flex space-x-4">
+                        <a href="https://discord.gg/xeh" class="text-white hover:text-gray-300">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="20px" viewBox="0 -28.5 256 256" version="1.1" preserveAspectRatio="xMidYMid">
+    <g>
+        <path d="M216.856339,16.5966031 C200.285002,8.84328665 182.566144,3.2084988 164.041564,0 C161.766523,4.11318106 159.108624,9.64549908 157.276099,14.0464379 C137.583995,11.0849896 118.072967,11.0849896 98.7430163,14.0464379 C96.9108417,9.64549908 94.1925838,4.11318106 91.8971895,0 C73.3526068,3.2084988 55.6133949,8.86399117 39.0420583,16.6376612 C5.61752293,67.146514 -3.4433191,116.400813 1.08711069,164.955721 C23.2560196,181.510915 44.7403634,191.567697 65.8621325,198.148576 C71.0772151,190.971126 75.7283628,183.341335 79.7352139,175.300261 C72.104019,172.400575 64.7949724,168.822202 57.8887866,164.667963 C59.7209612,163.310589 61.5131304,161.891452 63.2445898,160.431257 C105.36741,180.133187 151.134928,180.133187 192.754523,160.431257 C194.506336,161.891452 196.298154,163.310589 198.110326,164.667963 C191.183787,168.842556 183.854737,172.420929 176.223542,175.320965 C180.230393,183.341335 184.861538,190.991831 190.096624,198.16893 C211.238746,191.588051 232.743023,181.531619 254.911949,164.955721 C260.227747,108.668201 245.831087,59.8662432 216.856339,16.5966031 Z M85.4738752,135.09489 C72.8290281,135.09489 62.4592217,123.290155 62.4592217,108.914901 C62.4592217,94.5396472 72.607595,82.7145587 85.4738752,82.7145587 C98.3405064,82.7145587 108.709962,94.5189427 108.488529,108.914901 C108.508531,123.290155 98.3405064,135.09489 85.4738752,135.09489 Z M170.525237,135.09489 C157.88039,135.09489 147.510584,123.290155 147.510584,108.914901 C147.510584,94.5396472 157.658606,82.7145587 170.525237,82.7145587 C183.391518,82.7145587 193.761324,94.5189427 193.539891,108.914901 C193.539891,123.290155 183.391518,135.09489 170.525237,135.09489 Z" fill="#FFFFFF" fill-rule="nonzero">
+
+</path>
+    </g>
+</svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-8 border-t border-white/5 pt-8 text-center">
+                <p class="text-sm">&copy; 2024 Z1, Inc. (23711617)</p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Initialize the carousel
+            let slider = tns({
+                container: '.my-slider',
+                items: 3,
+                slideBy: 1,
+                autoplay: true,
+                autoplayButtonOutput: false,
+                controls: false,
+                nav: false,
+                autoplayTimeout: 3000,
+                speed: 1000,
+                loop: true,
+                responsive: {
+                    640: {
+                        items: 3
+                    },
+                    768: {
+                        items: 4
+                    },
+                    1024: {
+                        items: 5
+                    }
+                }
+            });
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const cookieBanner = document.getElementById('cookie-banner');
+            const acceptButton = document.getElementById('accept-cookies');
+
+            // Check if user has already accepted cookies
+            if (!localStorage.getItem('cookiesAccepted')) {
+                cookieBanner.style.display = 'flex';
+            }
+
+            acceptButton.addEventListener('click', function() {
+                localStorage.setItem('cookiesAccepted', 'true');
+                cookieBanner.style.display = 'none';
+            });
+        });
+    </script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'8c18ed3a7a4bf0d3',t:'MTcyNjA3MTAxMy4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
